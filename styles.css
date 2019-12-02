@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: white;
+    color: black;
+}
+
+#titre{
+    margin-bottom: 15px;
+}
+
+#separator{
+    width: 100px;
+    background-color: grey;
+    height: 2px;
+    margin: auto;
+    border-radius: 5px;
+}
+#prices {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: max-content;
+}
+
+#prices > div {
+    border: 1px solid grey;
+    margin: auto 0px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#P1 :hover, #P2 :hover, #P3 :hover, #P4 :hover{
+    /*a remplir avec l'animation, pas efficace */
+}
+
+#prices > div > ul {
+    text-align: left !important; 
+}
+
+.suscribe{
+    margin-bottom: 15px;
+}
+
+#P1{
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+}
+
+#P4 {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important; 
+}
+
+#P2, #P3, #P4{
+    border-left: none !important;
+}
+
+button{
+    margin-top: 15px;;
+    background-color: rgb(83, 6, 83);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;;
+}
