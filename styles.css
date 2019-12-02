@@ -61,7 +61,7 @@ body{
     padding: 10px;
 }
 
-#P1 :hover, #P2 :hover, #P3 :hover, #P4 :hover{
+#P1:hover, #P2:hover, #P3:hover, #P4:hover{
     /*TODO : écrire une animation qui agrandit la div concernée au survol */
 }
 
@@ -71,6 +71,10 @@ body{
 
 .suscribe{
     margin-bottom: 15px;
+}
+.suscribe:hover{
+    cursor: pointer !important;
+    padding: 15px 20px !important;
 }
 
 #P1{
@@ -96,3 +100,4 @@ button{
     border-radius: 5px;
     padding: 10px 15px;;
 }
+
