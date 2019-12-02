@@ -5,6 +5,28 @@ body{
     color: black;
 }
 
+/*Partie photo + présentation*/
+#main-img{
+    background-image: url("images/sport.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100vw;
+    padding-top: 120px;
+}
+
+#presentation{
+    width: max-content;
+    margin: 15px auto;
+    padding: 15px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    opacity: 0.6;
+}
+
+/*Partie grille de tarifs*/
 #titre{
     margin-bottom: 15px;
 }
