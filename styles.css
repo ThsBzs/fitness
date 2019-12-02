@@ -8,17 +8,25 @@ body{
 /*Partie photo + présentation*/
 #main-img{
     background-image: url("images/sport.jpg");
+   margin-bottom: 25px;
+}
+
+#second-img{
+    background-image: url("images/woman.jpg");
+}
+
+#main-img, #second-img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 550px;
-    width: 100vw;
-    padding-top: 120px;
+    width: 100%;
+    padding-top: 150px;
 }
 
-#presentation{
-    width: max-content;
-    margin: 15px auto;
+#introduction, #presentation{
+    margin: auto auto;
+    width: 650px;
     padding: 15px 15px;
     font-size: 25px;
     font-weight: bold;
@@ -54,7 +62,7 @@ body{
 }
 
 #P1 :hover, #P2 :hover, #P3 :hover, #P4 :hover{
-    /*a remplir avec l'animation, pas efficace */
+    /*TODO : écrire une animation qui agrandit la div concernée au survol */
 }
 
 #prices > div > ul {
