@@ -98,6 +98,10 @@ section, #pricing_table  {
     color:  rgb(83, 6, 83);
 }
 
+.price_grid:hover > #separator {
+    background-color: white;
+}
+
 #prices > div > ul {
     text-align: left !important; 
 }
