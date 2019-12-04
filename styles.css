@@ -65,9 +65,16 @@ body{
 
 
 .price_grid:hover{
-    transition: 100ms;
+    transition: 200ms;
     background-color: rgb(83, 6, 83);
     color: white !important;
+    transform: scale(1.1);
+}
+
+.price_grid:hover > button{
+    transition: 200ms;
+    background-color: white;
+    color:  rgb(83, 6, 83);
     transform: scale(1.1);
 }
 
@@ -77,18 +84,28 @@ body{
 
 .suscribe{
     margin-bottom: 15px;
+    transition: 200ms;
     transform: scale(1);
 }
 .suscribe:hover{
     cursor: pointer !important;
     padding: 15px 20px !important;
-    transition: 100ms;
+    transition: 200ms;
     transform: scale(1.1);
 }
 
 .price_grid{
+    transition: 200ms;
     transform: scale(1);
     border-radius: 5px;
+}
+
+.price_grid > h2 {
+    color: rgb(83, 6, 83);
+}
+
+.price_grid:hover > h2 {
+    color: white;
 }
 
 button{
