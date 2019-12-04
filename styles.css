@@ -1,8 +1,10 @@
 body{
+    cursor: default;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     background: white;
     color: black;
+    margin-bottom: 35px;;
 }
 
 /*Partie photo + présentation*/
@@ -46,6 +48,7 @@ body{
     margin: auto;
     border-radius: 5px;
 }
+
 #prices {
     display: flex;
     flex-direction: row;
@@ -54,15 +57,18 @@ body{
 }
 
 #prices > div {
-    border: 1px solid grey;
     margin: auto 0px;
     text-align: center;
     vertical-align: middle;
     padding: 10px;
 }
 
-#P1:hover, #P2:hover, #P3:hover, #P4:hover{
-    /*TODO : écrire une animation qui agrandit la div concernée au survol */
+
+.price_grid:hover{
+    transition: 100ms;
+    background-color: rgb(83, 6, 83);
+    color: white !important;
+    transform: scale(1.1);
 }
 
 #prices > div > ul {
@@ -71,24 +77,18 @@ body{
 
 .suscribe{
     margin-bottom: 15px;
+    transform: scale(1);
 }
 .suscribe:hover{
     cursor: pointer !important;
     padding: 15px 20px !important;
+    transition: 100ms;
+    transform: scale(1.1);
 }
 
-#P1{
-    border-top-left-radius: 5px !important;
-    border-bottom-left-radius: 5px !important;
-}
-
-#P4 {
-    border-top-right-radius: 5px !important;
-    border-bottom-right-radius: 5px !important; 
-}
-
-#P2, #P3, #P4{
-    border-left: none !important;
+.price_grid{
+    transform: scale(1);
+    border-radius: 5px;
 }
 
 button{
