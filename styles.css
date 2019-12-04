@@ -23,8 +23,8 @@ section, #pricing_table  {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  text-shadow: 0 0 5px grey;
 }
+
 #pricing_table{
     font-size: 20px;
     text-shadow: none;
