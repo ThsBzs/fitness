@@ -38,7 +38,12 @@ body{
 
 /*Partie grille de tarifs*/
 #titre{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+#titre > h2 {
+    font-weight: bold;
+    color: rgb(83, 6, 83);
 }
 
 #separator{
@@ -75,7 +80,6 @@ body{
     transition: 200ms;
     background-color: white;
     color:  rgb(83, 6, 83);
-    transform: scale(1.1);
 }
 
 #prices > div > ul {
@@ -118,3 +122,7 @@ button{
     padding: 10px 15px;;
 }
 
+button:hover{
+    transition: 200ms;
+    transform: scale(1.1);
+}
