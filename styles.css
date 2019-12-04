@@ -22,7 +22,7 @@ section, #pricing_table  {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  text-shadow: 0 0 5px rgb(255, 255, 255);
+  text-shadow: 0 0 5px grey;
 }
 #pricing_table{
     font-size: 20px;
@@ -55,7 +55,7 @@ section, #pricing_table  {
     max-width: 650px;
     padding: 15px 15px;
     background-color: white;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 /*Partie grille de tarifs*/
