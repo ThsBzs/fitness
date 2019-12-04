@@ -22,6 +22,7 @@ section, #pricing_table  {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   text-shadow: 0 0 5px grey;
 }
 #pricing_table{
