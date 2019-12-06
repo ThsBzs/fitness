@@ -30,17 +30,29 @@ section, #pricing_table  {
     text-shadow: none;
 }
 
+.price_grid > ul {
+    display: none;
+}
+
 #titre{
     margin-bottom: 35px;
 }
+
 #prices {
     display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+    flex-direction: column;
     width: max-content;
     margin-bottom: 35px;
 }
 
+@media screen and (min-width: 768px){
+    #prices {
+        flex-direction: row;
+    }
+    .price_grid > ul {
+        display: block;
+    }
+}
 
 /*Partie photo + présentation*/
 #main-img{
@@ -74,7 +86,6 @@ section, #pricing_table  {
     margin: auto;
     border-radius: 5px;
 }
-
 
 
 #prices > div {
