@@ -60,7 +60,7 @@ section{
     }
 }
 
-/*Partie photo + présentation*/
+/*Partie photo*/
 #main-img{
     background-image: url("images/sport.jpg");
     margin-bottom: 25px;
@@ -70,11 +70,17 @@ section{
     background-image: url("images/woman.jpg");
 }
 
-#introduction, #presentation{
+#introduction, #quote{
     max-width: 650px;
     padding: 15px 15px;
     background-color: white;
     opacity: 0.9;
+}
+
+/*presentation*/
+
+.box{
+    display: flex;
 }
 
 /*Partie grille de tarifs*/
