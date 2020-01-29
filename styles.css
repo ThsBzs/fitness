@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    cursor: default;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: white;
+    color: black;
+}
+
+section{
+  box-sizing: border-box;
+  height: 100vh;
+  text-align: center;
+  padding: 2vw;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#pricing_table{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+.price_grid > ul {
+    display: none;
+}
+
+#titre{
+    margin-bottom: 35px;
+}
+
+#prices {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin-bottom: 35px;
+}
+
+@media screen and (min-width: 768px){
+    #prices {
+        flex-direction: row;
+    }
+    .price_grid > ul {
+        display: block;
+    }
+}
+
+/*Partie photo*/
+#main-img{
+    background-image: url("images/sport.jpg");
+    margin-bottom: 25px;
+}
+
+#second-img{
+    background-image: url("images/woman.jpg");
+}
+
+#introduction, #quote{
+    max-width: 650px;
+    padding: 15px 15px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+/*presentation*/
+
+.box{
+    display: flex;
+}
+
+/*Partie grille de tarifs*/
+
+
+#titre > h2 {
+    font-weight: bold;
+    color: rgb(83, 6, 83);
+}
+
+#separator{
+    width: 100px;
+    background-color: grey;
+    height: 2px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+#prices > div {
+    margin: auto 0px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+.price_grid:hover{
+    transition: 200ms;
+    background-color: rgb(83, 6, 83);
+    color: white !important;
+    transform: scale(1.1);
+}
+
+.price_grid:hover > button{
+    transition: 200ms;
+    background-color: white;
+    color:  rgb(83, 6, 83);
+}
+
+.price_grid:hover > #separator {
+    background-color: white;
+}
+
+#prices > div > ul {
+    text-align: left !important; 
+}
+
+.suscribe{
+    margin-bottom: 15px;
+    transition: 200ms;
+    transform: scale(1);
+}
+.suscribe:hover{
+    cursor: pointer !important;
+    padding: 15px 20px !important;
+    transition: 200ms;
+    transform: scale(1.1);
+}
+
+.price_grid{
+    transition: 200ms;
+    transform: scale(1);
+    border-radius: 5px;
+}
+
+.price_grid > h2 {
+    color: rgb(83, 6, 83);
+}
+
+.price_grid:hover > h2 {
+    color: white;
+}
+
+button{
+    margin-top: 15px;;
+    background-color: rgb(83, 6, 83);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;;
+}
+
+button:hover{
+    transition: 200ms;
+    transform: scale(1.1);
+}
